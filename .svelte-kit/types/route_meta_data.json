@@ -1,0 +1,127 @@
+{
+	"/(marketing)": [
+		"src/routes/(marketing)/+page.ts"
+	],
+	"/": [],
+	"/(admin)/account/(menu)": [
+		"src/routes/(admin)/account/(menu)/+page.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/api": [
+		"src/routes/(admin)/account/api/+page.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/billing": [
+		"src/routes/(admin)/account/(menu)/billing/+page.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/billing/manage": [
+		"src/routes/(admin)/account/(menu)/billing/manage/+page.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/create_profile": [
+		"src/routes/(admin)/account/create_profile/+page.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/select_plan": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings/change_email": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings/change_password": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings/delete_account": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings/edit_profile": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/(menu)/settings/reset_password": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/sign_out": [
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(admin)/account/subscribe/[slug]": [
+		"src/routes/(admin)/account/subscribe/[slug]/+page.server.ts",
+		"src/routes/(admin)/account/+layout.ts",
+		"src/routes/(admin)/account/+layout.server.ts"
+	],
+	"/(marketing)/auth/callback": [
+		"src/routes/(marketing)/auth/callback/+server.js"
+	],
+	"/(marketing)/blog/(posts)": [
+		"src/routes/(marketing)/blog/+layout.ts"
+	],
+	"/(marketing)/blog": [
+		"src/routes/(marketing)/blog/+layout.ts",
+		"src/routes/(marketing)/blog/+layout.ts"
+	],
+	"/(marketing)/blog/(posts)/awesome_post": [
+		"src/routes/(marketing)/blog/+layout.ts"
+	],
+	"/(marketing)/blog/(posts)/example_blog_post": [
+		"src/routes/(marketing)/blog/+layout.ts"
+	],
+	"/(marketing)/blog/(posts)/how_we_built_our_41kb_saas_website": [
+		"src/routes/(marketing)/blog/+layout.ts"
+	],
+	"/(marketing)/blog/rss.xml": [
+		"src/routes/(marketing)/blog/rss.xml/+server.ts"
+	],
+	"/(marketing)/contact_us": [
+		"src/routes/(marketing)/contact_us/+page.server.ts"
+	],
+	"/(marketing)/login": [
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts",
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts"
+	],
+	"/(marketing)/login/current_password_error": [
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts"
+	],
+	"/(marketing)/login/forgot_password": [
+		"src/routes/(marketing)/login/forgot_password/+page.server.ts",
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts"
+	],
+	"/(marketing)/login/sign_in": [
+		"src/routes/(marketing)/login/sign_in/+page.server.ts",
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts"
+	],
+	"/(marketing)/login/sign_up": [
+		"src/routes/(marketing)/login/sign_up/+page.server.ts",
+		"src/routes/(marketing)/login/+layout.ts",
+		"src/routes/(marketing)/login/+layout.server.ts"
+	],
+	"/(marketing)/pricing": [
+		"src/routes/(marketing)/pricing/+page.ts"
+	]
+}

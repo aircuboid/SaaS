@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/(marketing)/login/current_password_error/+page.svelte";
